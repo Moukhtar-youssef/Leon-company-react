@@ -1,0 +1,7 @@
+@import "variables";
+.landing {
+  background-image: url("./../images//mountain.webp");
+  background-size: cover;
+  height: calc(100vh - 64px);
+  position: relative;
+}

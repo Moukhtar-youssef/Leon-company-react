@@ -1,0 +1,27 @@
+{
+  "name": "leon-company-react",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://Moukhtar-youssef.github.io",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "deploy": "gh-pages -b master -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.8.8",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "sass": "^1.56.1",
+    "vite": "^3.2.3"
+  }
+}
